@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity" >
+
+    <!-- Refresh -->
+    <item android:id="@+id/action_refresh"
+        android:title="@string/action_refresh"
+        android:showAsAction="never" />
+        <!--android:icon="@drawable/ic_action_refresh"  Pas d'icône car j'ai un bug de doublon-->
+
+    <!-- Barre de recherche -->
+    <item android:id="@+id/action_search"
+        android:title="@string/action_search"
+        android:orderInCategory="100"
+        android:showAsAction="never" />
+
+</menu>
+<!-- From: file:/Users/Tino/Downloads/Pokedex_NGUYEN_MERINIAN/app/src/main/res/menu/main.xml -->
